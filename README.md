@@ -12,8 +12,8 @@ Ritaja6361740-DotNet/
 ├── README.md # Main repo overview (this file)
 ├── week1/ # Design Patterns, SOLID principles, DSA
 ├── week2/ # Advanced SQL & C# Unit Testing
-├── week3/ #(to be added)
-├── week4/
+├── week3/ # Entity Framework Core 8.0
+├── week4/ # (to be added)
 ├── week5/
 ├── week6/
 ├── week7/
@@ -45,6 +45,22 @@ In **Week 2**, I explored the following:
 - 🔹 **Mocking with Moq:** Simulated external dependencies like email sending using the Moq library and dependency injection, ensuring isolated and testable code.
 
 Projects and outputs are organized under the `week2/` folder.
+
+---
+## 📚 Week 3 Summary  
+In **Week 3**, I focused on applying **Entity Framework (EF) Core** to implement Object-Relational Mapping (ORM) in a real-world retail inventory scenario using SQL Server and C#.
+
+- 🔹 **ORM with EF Core:** Learned how ORM bridges the gap between relational tables and C# classes. Created `Product` and `Category` models and mapped them to SQL tables using EF Core.
+
+- 🔹 **DbContext & Connection Setup:** Configured `AppDbContext` with `UseSqlServer()` to connect to the SQL Server database. Defined `DbSet<Product>` and `DbSet<Category>` for database operations.
+
+- 🔹 **EF Core CLI & Migrations:** Used `dotnet ef migrations add` and `dotnet ef database update` to generate schema and apply changes to the database.
+
+- 🔹 **Async CRUD Operations:** Inserted initial data using `AddRangeAsync()` and `SaveChangesAsync()`, and retrieved data using `ToListAsync()`, `FindAsync()`, and `FirstOrDefaultAsync()` with LINQ.
+
+- 🔹 **Validation via SSMS:** Verified that the data was correctly inserted and tables were created by checking SQL Server Management Studio (SSMS).
+
+Projects and outputs are organized under the `week3/` folder.
 
 ---
 
