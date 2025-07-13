@@ -13,8 +13,8 @@ Ritaja6361740-DotNet/
 ├── week1/ # Design Patterns, SOLID principles, DSA
 ├── week2/ # Advanced SQL & C# Unit Testing
 ├── week3/ # Entity Framework Core 8.0
-├── week4/ # (to be added)
-├── week5/
+├── week4/ # ASP.NET Core 8.0 Web API
+├── week5/ #(to be added)
 ├── week6/
 ├── week7/
 └── week8/
@@ -63,6 +63,26 @@ In **Week 3**, I focused on applying **Entity Framework (EF) Core** to implement
 Projects and outputs are organized under the `week3/` folder.
 
 ---
+##  📚 Week 4 Summary
+-  Built multiple RESTful Web APIs using .NET Core with CRUD operations and action verbs (`GET`, `POST`, `PUT`, `DELETE`)
+
+-  Implemented JWT authentication and role-based access using `[Authorize]` with custom roles
+
+-  Created Custom Filters for authorization and global exception handling
+
+-  Integrated Swagger (OpenAPI) for API documentation and testing
+
+-  Enabled CORS to allow frontend and Postman access to APIs
+
+-  Developed a real-time chat system using Kafka:
+
+   -  KafkaChatAPI: Sends messages to Kafka
+   - KafkaChatConsumer: Console app to receive messages
+   - KafkaChatClient: WinForms UI to send messages via API
+
+ Organized all outputs and projects under the `week4/` folder
+ 
+ ---
 
 ## 👩‍💻 Author
 
