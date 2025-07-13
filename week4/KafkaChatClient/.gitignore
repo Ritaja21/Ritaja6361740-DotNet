@@ -1,0 +1,27 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings (optional)
+.vscode/
+
+# Auto-generated files by WinForms Designer
+*.Designer.cs
+
+# Dotnet-generated HTTP files (optional)
+*.http
+
+# Logs
+*.log
+
+# Secrets or config (only if not using public settings)
+secrets.json
+
+# Ignore the launchSettings.json only if it contains user-specific data
+# Properties/launchSettings.json
