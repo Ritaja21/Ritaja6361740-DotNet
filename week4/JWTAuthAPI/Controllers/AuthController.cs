@@ -20,9 +20,14 @@ public class AuthController : ControllerBase
     }
 
     [HttpGet("token")]
-    public IActionResult GetToken()
+    public IActionResult GetToken(string role = "Admin")
     {
-        var token = GenerateJSONWebToken(1, "Admin");
+        var validRoles = new List<string> { "Admin", "POC" };
+        if (!validRoles.Contains(role))
+        {
+            return BadRequest("Invalid role. Only 'Admin' or 'POC' are allowed.");
+        }
+        var token = GenerateJSONWebToken(1, role);
         return Ok(new { Token = token });
     }
 
