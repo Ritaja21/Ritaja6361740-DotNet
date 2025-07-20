@@ -95,7 +95,7 @@ Projects and outputs are organized under the `week3/` folder.
 
 - **API Security:** Secured endpoints with `[Authorize]` and tested using Postman and Swagger.
 
-> Projects are organized as standalone Web API microservices inside the `week5/` folder.
+ Projects are organized as standalone Web API microservices inside the `week5/` folder.
 
 --- 
 ## 👩‍💻 Author
