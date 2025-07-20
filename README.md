@@ -14,8 +14,8 @@ Ritaja6361740-DotNet/
 ├── week2/ # Advanced SQL & C# Unit Testing
 ├── week3/ # Entity Framework Core 8.0
 ├── week4/ # ASP.NET Core 8.0 Web API
-├── week5/ #(to be added)
-├── week6/
+├── week5/ # Microservices Architecture using ASP.NET Core Web API
+├── week6/ #(to be added)
 ├── week7/
 └── week8/
 > Each `weekN/` folder contains separate C# console projects as per the weekly assessment tasks.
@@ -84,6 +84,20 @@ Projects and outputs are organized under the `week3/` folder.
  
  ---
 
+ ## 📚 Week 5 Summary
+ In **Week 5**, I explored the following:
+
+- **Authentication & Authorization:** Implemented JWT-based authentication for secure login.
+
+- **Role-Based Access Control:** Applied `[Authorize(Roles = "Admin")]` to protect admin-specific endpoints.
+
+- **Token Management:** Configured token expiry and added custom handling for expired or invalid tokens.
+
+- **API Security:** Secured endpoints with `[Authorize]` and tested using Postman and Swagger.
+
+> Projects are organized as standalone Web API microservices inside the `week5/` folder.
+
+--- 
 ## 👩‍💻 Author
 
 **Ritaja Tarafder**  
