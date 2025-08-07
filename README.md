@@ -16,8 +16,8 @@ Ritaja6361740-DotNet/
 ├── week4/ # ASP.NET Core 8.0 Web API
 ├── week5/ # Microservices Architecture using ASP.NET Core Web API
 ├── week6/ # Understanding React
-├── week7/
-└── week8/
+├── week7/ # ReactJS
+└── week8/ #(to be added)
 > Each `weekN/` folder contains separate C# console projects as per the weekly assessment tasks.
 ```
 
@@ -113,6 +113,28 @@ In Week 6, I explored the following:
 - **SPA vs MPA:** Studied the differences between Single Page and Multi Page Applications and how React enables SPA behavior through client-side routing.
 
 Projects are organized as standalone React apps inside the `week6/` folder.
+
+---
+
+## 📚 Week 7 Summary
+
+In Week 7, I explored the following:
+
+- **JSX and DOM Rendering:** Practiced using JSX to define UI structure and understood how it's compiled to `React.createElement()` for rendering virtual DOM elements.
+
+- **Event Handling in React:** Implemented event handlers using React’s synthetic event system and practiced handling user interactions like button clicks.
+
+- **Conditional Rendering:** Applied various conditional rendering techniques including `if-else`, ternary operators, short-circuiting, and element variables to control what components appear on the screen.
+
+- **List Rendering with `map()` and Keys:** Created reusable components that render lists using `map()`, while applying the key prop correctly to ensure efficient updates.
+
+- **Component Reusability:** Structured the app using multiple reusable components to reinforce modular design and separation of concerns.
+
+- **ES6 Features in Practice:** Strengthened knowledge of `let`, `const`, arrow functions, classes, destructuring, and map/set usage within React apps.
+
+Projects are organized as standalone React apps inside the `week7/` folder.
+
+---
 
 ## 👩‍💻 Author
 
