@@ -15,7 +15,7 @@ Ritaja6361740-DotNet/
 ├── week3/ # Entity Framework Core 8.0
 ├── week4/ # ASP.NET Core 8.0 Web API
 ├── week5/ # Microservices Architecture using ASP.NET Core Web API
-├── week6/ #(to be added)
+├── week6/ # Understanding React
 ├── week7/
 └── week8/
 > Each `weekN/` folder contains separate C# console projects as per the weekly assessment tasks.
@@ -98,6 +98,22 @@ Projects and outputs are organized under the `week3/` folder.
  Projects are organized as standalone Web API microservices inside the `week5/` folder.
 
 --- 
+
+## 📚 Week 6 Summary
+In Week 6, I explored the following:
+
+- **React Fundamentals:** Understood the basics of React, including JSX syntax, virtual DOM, and the concept of component-based architecture.
+
+- **Component Creation:** Built multiple React apps using both functional and class components to understand their structure and use cases.
+
+- **Props and State:** Passed data between components using props, and managed internal data using state.
+
+- **Lifecycle Methods:** Implemented lifecycle methods like `componentDidMount` and `componentWillUnmount` in class components to understand rendering phases.
+
+- **SPA vs MPA:** Studied the differences between Single Page and Multi Page Applications and how React enables SPA behavior through client-side routing.
+
+Projects are organized as standalone React apps inside the `week6/` folder.
+
 ## 👩‍💻 Author
 
 **Ritaja Tarafder**  
