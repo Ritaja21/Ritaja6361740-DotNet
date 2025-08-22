@@ -17,7 +17,7 @@ Ritaja6361740-DotNet/
 ├── week5/ # Microservices Architecture using ASP.NET Core Web API
 ├── week6/ # Understanding React
 ├── week7/ # ReactJS
-└── week8/ #(to be added)
+└── week8/ # GIT
 > Each `weekN/` folder contains separate C# console projects as per the weekly assessment tasks.
 ```
 
@@ -135,6 +135,20 @@ In Week 7, I explored the following:
 Projects are organized as standalone React apps inside the `week7/` folder.
 
 ---
+## 📚 Week 8 Summary
+In Week 8, I explored the following:
+
+- **Git Configuration and Setup:** Configured Git on the local machine, integrated Notepad++ as the default editor, and practiced adding files to a repository.
+
+- **Using `.gitignore`:** Learned how to ignore unwanted files and folders to keep the repository clean and organized.
+
+- **Branching and Merging:** Created branches, made changes, and merged them with the master branch, understanding the workflow of branching in collaborative development.
+
+- **Conflict Resolution:** Practiced handling merge conflicts when multiple users modify the same files and resolved conflicts manually to maintain code integrity.
+
+- **Syncing with Remote Repository:** Pulled changes from the remote repository, committed local changes, and pushed them back to ensure synchronization between local and remote repositories.
+
+Projects are organized as standalone Git hands-on assignments inside the `week8/` folder, with outputs stored in each assignment folder under `outputs/`.
 
 ## 👩‍💻 Author
 
@@ -143,4 +157,4 @@ GitHub: [@Ritaja21](https://github.com/Ritaja21)
 
 ---
 
-> This repository will be updated weekly with assessments and solutions as I progress through the Cognizant DeepSkilling Program.
+>This repository contains all the completed weekly assignments as part of the Cognizant DeepSkilling Program.
